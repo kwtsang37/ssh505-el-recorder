@@ -89,15 +89,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/fireba
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import { getFirestore, collection, doc, setDoc, getDoc, updateDoc, onSnapshot, query, where, addDoc, serverTimestamp, deleteDoc } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
-// NOTE: This uses the same Firebase project as the ACMV recorder. For separate data, create a new Firebase project and update the config below.
 const firebaseConfig = {
-  apiKey: "AIzaSyCBv6p_JIac4d_JJ8aGrhCAD7FbdRcyxrw",
-  authDomain: "ssh505-task-recorder.firebaseapp.com",
-  projectId: "ssh505-task-recorder",
-  storageBucket: "ssh505-task-recorder.firebasestorage.app",
-  messagingSenderId: "53469864424",
-  appId: "1:53469864424:web:2c5beef6410839554b045d",
-  measurementId: "G-W9QC2NMHVK"
+  apiKey: "AIzaSyCWACkoONtwvU7B2FfmBGr_zD0QUaAMhk8",
+  authDomain: "ssh505-electrical.firebaseapp.com",
+  projectId: "ssh505-electrical",
+  storageBucket: "ssh505-electrical.firebasestorage.app",
+  messagingSenderId: "582212519544",
+  appId: "1:582212519544:web:acefcc4cebd86b6ce24f8d"
 };
 
 const app = initializeApp(firebaseConfig);
